@@ -1,0 +1,167 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+#hp {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(92, 137, 158);
+}
+#jk {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(213, 175, 218);
+}
+#km {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(186, 100, 197);
+}
+#nr {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(103, 189, 139);
+}
+#sh {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(124, 168, 204);
+}
+#st {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(143, 116, 27);
+}
+header {
+  padding: 0px 4% 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.pc-nav a:hover {
+  color: rgb(228, 132, 231);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 250px;
+  padding: 5px;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+nav {
+  margin: 0 0 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+/* hp */
+.jiko {
+  top: 20px;
+  left: 500px;
+  position: relative;
+}
+.saku {
+  top: 10px;
+  left: 370px;
+  position: absolute;
+}
+.komi {
+  top: 15px;
+  left: 900px;
+  position: absolute;
+}
+.sont {
+  top: 400px;
+  left: 340px;
+  position: absolute;
+}
+.nerk {
+  top: 350px;
+  left: 950px;
+  position: absolute;
+}
+/* jk */
+.ttt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 650px;
+  border-radius: 50%;
+  width: 12%;
+  position: relative;
+}
+
+.text {
+  margin-top: 300px;
+  margin-left: 600px;
+  position: absolute;
+  font-weight: bold;
+
+}
+/* sh */
+  
+  .pic1 {
+  top: 2px;
+  left: 10px;
+  margin-left: 300px;
+  }
+  .pic2 {
+  top: 25px;
+  left: 170px;
+  margin-left: 300px;
+  }
+  .pic3 {
+  top: 30px;
+  left: 300px;
+  margin-left: 300px;
+  }
+  .pic4 {
+  top: 17px;
+  left: 450px;
+  margin-left: 300px;
+  }
+
+/* km */
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+
+/* st */
+textarea {
+  resize: vertical;
+  min-height: 70em;
+  min-width: 70em;
+  margin-left: 300px;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-left: 750px;
+}
